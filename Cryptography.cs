@@ -1,3 +1,5 @@
+using Ignite; // Requires Ignite.Binary
+
 namespace Ignite {
     public static class Cryptography {
         public static T Encrypt<T> (in string key, in object data) {

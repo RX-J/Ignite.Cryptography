@@ -1,5 +1,4 @@
-# The Ignite.Cryptography class provides a simple way to symmetrically encrypt primitive data types.
-
+# **The ```Ignite.Cryptography``` class requires the ```Ignite.Binary``` class from https://github.com/RX-J/Ignite.Binary/blob/main/Binary.cs**
 ## Important: The functions "Encrypt" and "Decrypt" both use the SHA256 algorithm to generate a key with 32 bytes from any password, if you store hashed passwords you should use a hashing algorithm other than SHA256 or use a salt! It should also be mentioned that the functionality has been kept compact and further security measures may need to be taken!
 
 **The ```Encrypt``` function accepts any primitive data type and returns a ```byte[]``` or a ```string```, while the ```Decrypt``` function only accepts a ```byte[]``` or a ```string``` and returns any primitive data type. These primitive data types are:**
